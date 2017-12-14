@@ -2,6 +2,22 @@
 Application URL:
 http://recipe-book-comp586.s3-website-us-west-2.amazonaws.com/ Hosted on AWS S3
 
+Features:
+Login
+By default, it fetches data from Array
+On login, right top corner has manage button,
+Click on fetch data to fetch all teh recipes from Database.
+Add new recipe
+View Recipe details
+Edit recipe
+Add ingredients to shopping list
+Ingredients tab shows the ingredients.
+
+Register
+
+Logout
+Cannot edit/add recipes
+
 Server side Code:
 https://github.com/koshasheth24/COMP586Server
 
