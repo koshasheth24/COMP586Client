@@ -16,7 +16,7 @@ export class DataStorageService {
   storeRecipes() {
     const token = this.authService.getToken();
 
-    return this.http.put('http://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com/save?auth=' + token, this.recipeService.getRecipes());
+    return this.http.put('http://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com/saveRecipe.json?auth=' + token, this.recipeService.getRecipes());
   }
 
   getRecipes() {
