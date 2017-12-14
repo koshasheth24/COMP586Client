@@ -23,6 +23,7 @@ Dependency injection and JPA for DB access.
 Dependency injection in Spring generally applied through annotations like @Autowired
 Application.properties file has DB configurations
 
+Server side test cases in Test folder.
 Server side Code:
 https://github.com/koshasheth24/COMP586Server
 
@@ -35,4 +36,7 @@ MySQL DB hosted on AWS EC2 moviereview.cwbu8r5mq6wc.us-west-1.rds.amazonaws.com
 Main Page contains some recipes.
 Authorized user can add/remove recipes
 Unauthorized user can only view recipes
-User can also add Ingredients to ingredient list based on reciepe.p
+User can also add Ingredients to ingredient list based on reciepe.
+
+
+
