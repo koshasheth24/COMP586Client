@@ -24,7 +24,8 @@ https://github.com/koshasheth24/COMP586Server
 Backend hosted on EBShttp://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com
 Spring MVC based implementation of backend.
 Dependency injection and JPA for DB access.
-Authentication and authorization handled via tokens through Firebase Authentication.
+Authentication and authorization handled via tokens through Firebase Authentication Identity as a service.
+
 
 MySQL DB hosted on AWS EC2 moviereview.cwbu8r5mq6wc.us-west-1.rds.amazonaws.com
 
