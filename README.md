@@ -5,7 +5,7 @@ http://recipe-book-comp586.s3-website-us-west-2.amazonaws.com/ Hosted on AWS S3
 Server side Code:
 https://github.com/koshasheth24/COMP586Server
 
-Backend hosted on Firebasehttps://ng-recipe-book-c3f72.firebaseapp.com/
+Backend hosted on EBShttp://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com
 Spring MVC based implementation of backend.
 Dependency injection and JPA for DB access.
 Authentication and authorization handled via tokens through Firebase Authentication.
