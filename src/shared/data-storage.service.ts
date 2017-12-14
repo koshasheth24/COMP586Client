@@ -16,13 +16,13 @@ export class DataStorageService {
   storeRecipes() {
     const token = this.authService.getToken();
 
-    return this.http.put('https://ng-recipe-book-c3f72.firebaseio.com/recipes.json?auth=' + token, this.recipeService.getRecipes());
+    return this.http.put('http://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com/save?auth=' + token, this.recipeService.getRecipes());
   }
 
   getRecipes() {
     const token = this.authService.getToken();
 
-    this.http.get('https://ng-recipe-book-c3f72.firebaseio.com/recipes.json?auth=' + token)
+    this.http.get('http://default-environment.n2u6uc6b6f.us-west-2.elasticbeanstalk.com/recipes?auth=' + token)
       .map(
         (response: Response) => {
           const recipes: Recipe[] = response.json();
